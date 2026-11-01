@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数学学习资料 - 校园逸事</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="css/math.css" />
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-book-half me-2 text-primary"></i>
+                校园逸事
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house-door me-1"></i>首页
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">
+                            <i class="bi bi-folder2-open me-1"></i>全部学习资料
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="math_learning.html">
+                            <i class="bi bi-calculator me-1"></i>数学学习资料
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="bi bi-info-circle me-1"></i>关于我们
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="math-hero">
+        <div class="container math-hero-content text-center animate-fade-in">
+            <h1 class="display-4 fw-bold mb-3">校园逸事 - 数学学习资料</h1>
+            <p class="lead opacity-90 mb-0">数学的世界，探索无尽的奥秘</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        
+        <!-- Category Navigation -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold display-6">数学学习资料</h2>
+            <p class="text-muted">选择你感兴趣的数学领域，开始探索之旅</p>
+        </div>
+
+        <div class="row g-4 mb-5">
+            <!-- Algebra Category -->
+            <div class="col-md-4 animate-fade-in delay-1">
+                <div class="category-card">
+                    <div class="category-header algebra">
+                        <div class="category-icon">
+                            <i class="bi bi-calculator"></i>
+                        </div>
+                        <h3 class="fw-bold mb-0">代数</h3>
+                    </div>
+                    <ul class="category-list">
+                        <li><a href="#algebra-basics">代数基础</a></li>
+                        <li><a href="#linear-algebra">线性代数</a></li>
+                        <li><a href="#abstract-algebra">抽象代数</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Geometry Category -->
+            <div class="col-md-4 animate-fade-in delay-2">
+                <div class="category-card">
+                    <div class="category-header geometry">
+                        <div class="category-icon">
+                            <i class="bi bi-triangle"></i>
+                        </div>
+                        <h3 class="fw-bold mb-0">几何</h3>
+                    </div>
+                    <ul class="category-list">
+                        <li><a href="#geometry-basics">几何基础</a></li>
+                        <li><a href="#analytic-geometry">解析几何</a></li>
+                        <li><a href="#differential-geometry">微分几何</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Probability Category -->
+            <div class="col-md-4 animate-fade-in delay-3">
+                <div class="category-card">
+                    <div class="category-header probability">
+                        <div class="category-icon">
+                            <i class="bi bi-bar-chart-line"></i>
+                        </div>
+                        <h3 class="fw-bold mb-0">概率统计</h3>
+                    </div>
+                    <ul class="category-list">
+                        <li><a href="#probability">概率论</a></li>
+                        <li><a href="#statistics">数理统计</a></li>
+                        <li><a href="#stochastic-processes">随机过程</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="section-divider">
+            <span><i class="bi bi-journal-text me-2"></i>详细资料</span>
+        </div>
+
+        <!-- Algebra Details -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4 animate-fade-in delay-1" id="algebra-basics">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number algebra-num">01</div>
+                    <h3>代数基础</h3>
+                    <p>介绍代数的基本概念和运算规则。</p>
+                    <a href="https://example.com/algebra-basics" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 animate-fade-in delay-2" id="linear-algebra">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number algebra-num">02</div>
+                    <h3>线性代数</h3>
+                    <p>矩阵、向量空间和线性变换的介绍。</p>
+                    <a href="https://example.com/linear-algebra" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 animate-fade-in delay-3" id="abstract-algebra">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number algebra-num">03</div>
+                    <h3>抽象代数</h3>
+                    <p>群、环、域等抽象代数结构的讲解。</p>
+                    <a href="https://example.com/abstract-algebra" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Geometry Details -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4 animate-fade-in delay-1" id="geometry-basics">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number geometry-num">04</div>
+                    <h3>几何基础</h3>
+                    <p>几何学的基本概念和几何图形的性质。</p>
+                    <a href="https://example.com/geometry-basics" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 animate-fade-in delay-2" id="analytic-geometry">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number geometry-num">05</div>
+                    <h3>解析几何</h3>
+                    <p>用代数方法研究几何图形的性质。</p>
+                    <a href="https://example.com/analytic-geometry" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 animate-fade-in delay-3" id="differential-geometry">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number geometry-num">06</div>
+                    <h3>微分几何</h3>
+                    <p>研究光滑曲线和曲面的性质。</p>
+                    <a href="https://example.com/differential-geometry" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Probability Details -->
+        <div class="row g-4">
+            <div class="col-md-4 animate-fade-in delay-1" id="probability">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number probability-num">07</div>
+                    <h3>概率论</h3>
+                    <p>随机事件的概率及其计算方法。</p>
+                    <a href="https://example.com/probability" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 animate-fade-in delay-2" id="statistics">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number probability-num">08</div>
+                    <h3>数理统计</h3>
+                    <p>数据的收集、分析和解释。</p>
+                    <a href="https://example.com/statistics" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 animate-fade-in delay-3" id="stochastic-processes">
+                <div class="resource-detail-card p-4">
+                    <div class="resource-number probability-num">09</div>
+                    <h3>随机过程</h3>
+                    <p>时间序列和随机变量的研究。</p>
+                    <a href="https://example.com/stochastic-processes" target="_blank" class="btn-detail">
+                        查看详情 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>
+                        <i class="bi bi-book-half me-2"></i>校园逸事
+                    </h5>
+                    <p class="mb-4">专为学生打造的校园分享平台，记录点滴，分享成长。让每一个校园故事都被听见，每一份学习经验都能传承。</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="bi bi-wechat"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-sina-weibo"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-github"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>快速链接</h5>
+                    <a href="index.html" class="footer-link">首页</a>
+                    <a href="learning_resources.html" class="footer-link">全部学习资料</a>
+                    <a href="math_learning.html" class="footer-link">数学学习资料</a>
+                    <a href="about.html" class="footer-link">关于我们</a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>数学分类</h5>
+                    <a href="#algebra-basics" class="footer-link">代数基础</a>
+                    <a href="#geometry-basics" class="footer-link">几何基础</a>
+                    <a href="#probability" class="footer-link">概率论</a>
+                    <a href="#statistics" class="footer-link">数理统计</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>联系我们</h5>
+                    <p class="mb-2"><i class="bi bi-geo-alt me-2"></i>一个私密的地址</p>
+                    <p class="mb-2"><i class="bi bi-envelope me-2"></i>180669949@qq.com</p>
+                    <p class="mb-2"><i class="bi bi-telephone me-2"></i>010-12345678</p>
+                    <p class="mb-0"><i class="bi bi-clock me-2"></i>周一至周五 9:00-18:00</p>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">版权所有 © 2026 校园逸事 保留所有权利</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="#" class="footer-link d-inline me-3">隐私政策</a>
+                    <a href="#" class="footer-link d-inline me-3">使用条款</a>
+                    <a href="#" class="footer-link d-inline">帮助中心</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS for animations -->
+    <script>
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = "1";
+                    entry.target.style.transform = "translateY(0)";
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-fade-in').forEach((el) => {
+            el.style.opacity = "0";
+            el.style.transform = "translateY(30px)";
+            el.style.transition = "all 0.8s ease-out";
+            observer.observe(el);
+        });
+
+        // Navbar background change on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-sm');
+            } else {
+                navbar.classList.remove('shadow-sm');
+            }
+        });
+    </script>
+</body>
+</html>
+
